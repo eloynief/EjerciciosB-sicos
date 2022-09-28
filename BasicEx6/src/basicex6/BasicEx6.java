@@ -31,6 +31,9 @@ public class BasicEx6 {
 		System.out.println(nm1 * nm2);
 		System.out.println();
 		System.out.println(nm1 / nm2);
+		
+		//cierre de scanner
+		sc.close();
 	}
 
 }

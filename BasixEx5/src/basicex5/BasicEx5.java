@@ -12,10 +12,10 @@ public class BasicEx5 {
 		
 		Scanner u = new Scanner(System.in);
 		
-		u.useLocale(Locale.US); //pone los puntos en vez de comillas (cambiaeñ lenguaje del scaner)
+		u.useLocale(Locale.US); //pone los puntos en vez de comillas
 		
 		//print de mensaje
-		System.out.print("put the ratio: ");
+		System.out.print("Pon el radio de la circunferencia: ");
 		
 		//variable para introducir el valor que pide
 		double ratio = u.nextFloat();
@@ -30,8 +30,11 @@ public class BasicEx5 {
 		double circarea = (2 * ep * ratio);
 		
 		//print de las variables cuyos resultados son los cálculos anteriores
-		System.out.println(circlong);
-		System.out.print(circarea);
+		System.out.println("La longitud de la circunferencia es: " + circlong);
+		System.out.print("El área de la circunferencia es: " + circarea);
+		
+		//cierre de scanner
+		u.close();
 	}
 
 }

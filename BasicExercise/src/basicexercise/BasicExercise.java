@@ -7,18 +7,20 @@ public class BasicExercise {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		//para poder escribir el numero
+		//crear scanner para poder escribir el numero
 		Scanner c = new Scanner(System.in);
 		
 		//mensaje para meter numero
-		System.out.print("pon un numero: ");
+		System.out.print("Introduce un número: ");
 		
-		int n = c.nextInt(); //es int, pero podrías poner otras cosas como byte
+		//crear variable numérica
+		int n = c.nextInt();
 		
-		//aparece despues de escribir el numero
-		System.out.print("The number is: " + n);
+		//aparece despues de escribir el numero de la variable
+		System.out.print("El número es: " + n);
 		
-		
+		//cierre de scanner
+		c.close();
 	}
 
 }

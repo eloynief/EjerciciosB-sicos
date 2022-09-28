@@ -33,6 +33,9 @@ public class BasicEx4 {
 		//print del mensaje final
 		System.out.print("Pon la nota que sacastes en mates (la secuela 2): " + ss3);
 		
+		//cierre de scanner
+		am.close();
+		
 	}
 
 }

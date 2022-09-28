@@ -27,6 +27,9 @@ public class BasicEx3 {
 		
 		//comando de printeo del resultado el cual es la variable "calculado"
 		System.out.print("Tu edad es: " + calculado);
+		
+		//cierre de scanner
+		actual.close();
 	}
 
 }

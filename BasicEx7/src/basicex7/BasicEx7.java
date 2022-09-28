@@ -33,6 +33,9 @@ public class BasicEx7 {
 		System.out.println("Your name is: " + lt1);
 		System.out.println("Your address is: " + lt2);
 		System.out.println("Your phone number is: " + nm1);
+		
+		//cierre de scanner
+		scans.close();
 	}
 
 }
